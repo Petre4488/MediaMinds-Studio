@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+
+
+#root {
+    overflow-x: hidden;
+    margin: 0 auto;
+    padding: 0 rem;
+    text-align: center; 
+
+  }
+  
+  body{
+    overflow-x: hidden;
+   font-family: 'Kanit', sans-serif;
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    a:nth-of-type(2) .logo {
+      animation: logo-spin infinite 20s linear;
+    }
+  }
+  
+.Background{
+  
+}
+
+  
+
+
+  
