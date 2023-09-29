@@ -1,19 +1,17 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import NavBar from './navbar.jsx'
-import CarouselItem from './carousel.jsx'
-// eslint-disable-next-line no-unused-vars
-import DisplayImg from './display-img.jsx'
-import Background from './Background/animated-bg.jsx'
-import './style.scss'
-
+import AboutPage from './Pages/AboutPage/AboutPage'
+import HomePage from './Pages/HomePage/HomePage'
+import PortfolioPage from './Pages/PortfolioPage/PortfolioPage.jsx'
+import ServicesPage from './Pages/ServicesPage/ServicesPage'
+import AppRouter from './AppRouter'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <NavBar className='NavBar' />
-    <DisplayImg className='Holder' />
-    <CarouselItem className='Carousel' />
-    <Background className="background" /> 
-
+  <React.StrictMode>  
+      <HomePage/>
+      <AboutPage/>
+      <PortfolioPage/>
+      <ServicesPage/>
+      <AppRouter/>
   </React.StrictMode>,
 )
