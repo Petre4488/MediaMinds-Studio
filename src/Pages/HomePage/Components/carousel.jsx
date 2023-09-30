@@ -1,8 +1,8 @@
 import Carousel from 'react-bootstrap/Carousel';
 import Container from 'react-bootstrap/Container';
-import cr1 from './assets/cr1.jpeg'
-import cr2 from './assets/cr2.jpeg'
-import cr3 from './assets/cr3.jpeg'
+import cr1 from '../../../assets/cr1.jpeg'
+import cr2 from '../../../assets/cr2.jpeg'
+import cr3 from '../../../assets/cr3.jpeg'
 
 function CarouselItem() {
   const textOutlineStyle = {
@@ -58,4 +58,4 @@ function CarouselItem() {
   );
 }
 
-export default CarouselItem;
+export {CarouselItem};

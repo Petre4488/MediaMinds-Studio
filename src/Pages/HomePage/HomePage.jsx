@@ -1,10 +1,17 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import NavBar from './Components/navbar.jsx'
+import {NavBar} from './Components/navbar.jsx'
+import {Carousel} from './Components/carousel.jsx'
+import {Welcome} from './Components/display-img.jsx'
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-    <React.StrictMode>  
-        <NavBar/>
-    </React.StrictMode>,
-  )
+function HomePage() {
+    return (
+      <>
+        <NavBar />
+        <Carousel />
+        <Welcome />
+
+      </>
+    );
+  }
+  
+  export default HomePage;
   
