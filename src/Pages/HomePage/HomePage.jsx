@@ -1,13 +1,14 @@
 import {NavBar} from './Components/navbar.jsx'
-import {Carousel} from './Components/carousel.jsx'
+import {CarouselItem} from './Components/carousel.jsx'
 import {Welcome} from './Components/display-img.jsx'
+import './Components/style.css'
 
 function HomePage() {
     return (
       <>
-        <NavBar />
-        <Carousel />
-        <Welcome />
+        <NavBar className='NavBar' />
+        <Welcome className='Welcome' />
+        <CarouselItem className='Carousel' />
 
       </>
     );
