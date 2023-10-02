@@ -9,6 +9,7 @@ import HomePage from './Pages/HomePage/HomePage'
 /*import AboutPage from './Pages/AboutPage/AboutPage'
 import PortfolioPage from './Pages/PortfolioPage/PortfolioPage.jsx'
 import ServicesPage from './Pages/ServicesPage/ServicesPage'*/
+import './style.css'
 
 const router = createBrowserRouter([
   {
@@ -21,7 +22,6 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>  
-      <HomePage/>
       <RouterProvider router={router}/>
   </React.StrictMode>,
 )
