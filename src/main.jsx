@@ -15,7 +15,7 @@ import './style.css'
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <HomePage />,
+    element: <HomePage className='HomePage' />,
   },
   {
     path: "/contacts",
